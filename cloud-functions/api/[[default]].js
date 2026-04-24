@@ -1,6 +1,4 @@
 export default function onRequest(context) {
-  return new Response('Hello from Cloud Functions!');
-}
 'use strict';
 /*
   WallHub server.js v4.1
@@ -1329,3 +1327,4 @@ server.on('error',err=>{
   else console.error('\n❌',err.message);
   process.exit(1);
 });
+}
